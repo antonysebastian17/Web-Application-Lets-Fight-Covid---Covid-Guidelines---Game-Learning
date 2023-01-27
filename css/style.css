@@ -1,0 +1,96 @@
+@font-face {
+  font-family: dialogFont;
+  src: url(../assets/fonts/CabinSketch-Regular.ttf);
+}
+html,
+body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.dialogButton {
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  font-size: 36px;
+  font-family: dialogFont, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  color: #457b9d;
+  cursor: pointer;
+}
+
+.dialogButton:hover {
+  background-color: lightgoldenrodyellow;
+}
+
+.startButton {
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  font-size: 64px;
+  font-family: dialogFont, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  color: #457b9d;
+  cursor: pointer;
+}
+
+.startButton:hover {
+  background-color: lightgoldenrodyellow;
+}
+
+#tryAgainButton {
+  position: absolute;
+  color: red;
+  background-color: white;
+  border: none;
+  border-radius: 5%;
+  padding: 0.3em 1em;
+  font-family: dialogFont, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-size: 2em;
+  text-align: center;
+  cursor: pointer;
+}
+
+#goNext {
+  position: absolute;
+  color: blueviolet;
+  background-color: white;
+  border: none;
+  border-radius: 5%;
+  padding: 0.3em 1em;
+  font-family: dialogFont, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-size: 2em;
+  text-align: center;
+  cursor: pointer;
+}
+
+#virusFree {
+  position: absolute;
+  color: rgb(43, 226, 150);
+  background-color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5%;
+  padding: 0.3em 1em;
+  font-family: dialogFont, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-size: 2em;
+  text-align: center;
+  cursor: pointer;
+}
+.helpButton {
+  position: absolute;
+  color: white;
+  background-color: orangered;
+  border: none;
+  border-radius: 5%;
+  padding: 0.1;
+  font-family: dialogFont, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: 800;
+  cursor: pointer;
+}
